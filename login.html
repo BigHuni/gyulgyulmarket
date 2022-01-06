@@ -6,33 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <link rel="stylesheet" href="./src/style/reset.css" />
-    <link rel="stylesheet" href="./src/style/common.css" />
     <link rel="stylesheet" href="./src/style/login.css" />
     <style></style>
   </head>
   <body>
     <div class="login-wrap">
-      <h2>로그인</h2>
     <fieldset>
-      <legend class="hide-text">로그인 페이지</legend>
+      <legend><img src="./src/images/logo/m-icon-tangerine.png" alt="로고"></legend>
       <ul>
         <li>
           <div class="block-input">
           <label for="input1">이메일</label>
-          <input type="email" name="email" id="input1" class="text-field"/>
+          <input type="text" name="email" placeholder="@" id="input1" class="text-field"/>
         </div>
         </li>
 
         <li>
           <div class="block-input">
           <label for="input2">비밀번호</label>
-          <input type="password" name="password" id="input2" class="text-field"/>
+          <input type="text" name="password" placeholder="비밀번호"id="input2" class="text-field"/>
           <p class="login-error"> *이메일 또는 비밀번호가 일치하지 않습니다.</p>
         </div>
-      </fieldset>
+          
         </li>
       </ul>
-      <div class="btn-for-login">
+      <div class="login-btn">
         <button type="submit">로그인</button>
         <div class="join-email">
           <a href="#">이메일로 회원가입</a>
